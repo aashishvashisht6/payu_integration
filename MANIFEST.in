@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include payu_integration *.css
+recursive-include payu_integration *.csv
+recursive-include payu_integration *.html
+recursive-include payu_integration *.ico
+recursive-include payu_integration *.js
+recursive-include payu_integration *.json
+recursive-include payu_integration *.md
+recursive-include payu_integration *.png
+recursive-include payu_integration *.py
+recursive-include payu_integration *.svg
+recursive-include payu_integration *.txt
+recursive-exclude payu_integration *.pyc
